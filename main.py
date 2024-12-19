@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
     # تعداد پردازنده‌های موجود
     num_processes = multiprocessing.cpu_count()
-    max_checks = 10000
+    max_checks = 100000
 
     print(f"Using {num_processes} CPU cores.")
 
